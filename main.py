@@ -1,7 +1,10 @@
-import ui
+from tkinter import Tk
+from src.ui import YoutubeDownloaderApp
 
 def main():
-    ui.create_ui().mainloop()
+    root = Tk()
+    app = YoutubeDownloaderApp(root)
+    root.mainloop()
 
 if __name__ == "__main__":
     main()
