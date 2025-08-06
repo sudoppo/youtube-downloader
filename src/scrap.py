@@ -60,6 +60,5 @@ def get_video_info():
     
 def get_thumbnail(thumbnail_url):
     response = requests.get(thumbnail_url)
-    img_data = Image.open(BytesIO(response.content)).resize((320, 180))
-    img = ImageTk.PhotoImage(img_data)
+    img = Image.open(BytesIO(response.content)).resize((320, 180))
     return img

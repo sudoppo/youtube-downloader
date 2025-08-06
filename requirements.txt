@@ -2,3 +2,4 @@ pillow
 requests
 pyinstaller
 yt_dlp
+PySide6
