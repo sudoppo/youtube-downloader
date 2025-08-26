@@ -7,6 +7,7 @@ build:
 	--add-binary "bin/ffmpeg.exe;bin" \
 	--add-binary "bin/ffprobe.exe;bin" \
 	--add-binary "bin/ffplay.exe;bin" \
+	--add-data "src/test.ui;src" \
 	--collect-all yt_dlp \
 	--hidden-import "pkg_resources" \
 	--hidden-import "yt_dlp.compat" \
